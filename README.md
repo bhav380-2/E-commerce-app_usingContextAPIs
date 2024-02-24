@@ -1,5 +1,5 @@
 # BuyBusy App
-> [BuyBusy](https://buybusy.onrender.com) is a web application for the customers of an e-commerce business.
+> [BuyBusy] is a web application for the customers of an e-commerce business.
 
 ##  Getting Started 
 -  Fork the Project in your Repository.
@@ -27,7 +27,7 @@ For any issues related to the project, raise an ISSUE in the respective Reposito
 - HTML - CSS
 
 ## File Structure
-### The PhotoFolio app is built using 8 components:
+### The Buybusy app is built using 8 components:
 - Navbar: Displays the logo image, search bar, buttons for login/logout, filters, cart and orders.
 - Error: Error Handling Page when there's an error.
 - Home: Displays a list of products fetched from the file.
