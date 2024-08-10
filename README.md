@@ -1,17 +1,13 @@
-# BuyBusy App
-> [BuyBusy] is a web application for the customers of an e-commerce business.
+# E-Commerce App
+This is an ecommerce applicaiton built using React and Context-API for efficient global state management. It provides users with a seamless shopping experience, including user authentication, product browsing, cart management, and order tracking.
 
-##  Getting Started 
--  Fork the Project in your Repository.
--  Clone the Forked Repository in your Local System.
--  Run 'npm install'.
--  Run 'npm start'.
--  Enjoy :)
 
-For any issues related to the project, raise an ISSUE in the respective Repository.
+![Ecommerce-app](src/images/ecomm.png)
+
+
 
 ## Functionalities
-- BuyBusy enables individuals to browse through various product to choose from.
+- This applicaiton enables individuals to browse through various product to choose from.
 - It allows user to create their own account to manage thier cart and orders.
 - It provides options for users to add or remove products from their shopping carts.
 - It has complete functionality for purchasing the products.
@@ -19,32 +15,38 @@ For any issues related to the project, raise an ISSUE in the respective Reposito
 
 ## Technologies Used
 - React
+- Context-API for State Management
 - Firebase: Authentication
 - Firebase: Firestore
 - Bootstrap
-- react-loader-spinner
-- react-toastify
 - HTML - CSS
 
-## File Structure
-### The Buybusy app is built using 8 components:
-- Navbar: Displays the logo image, search bar, buttons for login/logout, filters, cart and orders.
-- Error: Error Handling Page when there's an error.
-- Home: Displays a list of products fetched from the file.
-- ProductCard: Displays an individual product.
-- Orders: Displays a list of previous orders of a user.
-- Cart: Displays items in the cart of a user.
-- SignIn: Displays the a Sign-in page.
-- SignUp: Displays the a Sign-up page.
 
-### Other files used in the project
-- authContext: A context api for user authentication.
-- productContext: A context api for product management.
-- data: A file containing list of products details.
-- firebaseInit: A file for storing firebase configuration.
+## Installation
 
-## API Structure
-The firebase API would look like this:
-- users to store all the users currently using with the app.
-- users/cart To store all the items in cart of a particular user.
-- users/order to store all the orders of a particular user.
+1. Clone the repository:
+    ```sh
+   https://github.com/bhav380-2/E-commerce-app_usingContextAPIs.git
+    ```
+
+2. Navigate to the project directory:
+    ```sh
+    cd E-commerce-app_usingContextAPIs
+    ```
+
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+## Running the Application
+
+1. Start the development server:
+    ```sh
+    npm start
+    ```
+
+2. The application will be running on `http://localhost:3000`.
+
+
+
